@@ -11,74 +11,84 @@
     <title>Adrean Kuznetsov</title>
 
   </head>
-  <body>
+  <body id="home">
       <!-- Page Content-->
-      
+      <main>
         <!-- Nav -->
-        <ul class="nav fixed-top navbar-expand-lg bg-light">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" >
+          <a class="navbar-brand" href="#"><em><strong>Adrean K.</strong></em></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#skills">Skills</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </nav>
         <!-- /Nav -->
 
         <!-- Jumbotron -->
-        <div class="jumbotron jumbotron-fluid mt-4">
+        <div class="jumbotron jumbotron-fluid mt-5">
           <div class="container">
             <h1 class="display-3"><strong>Adrean Kuznetsov</strong></h1>
-            <p class="lead"></p>
+            <p class="lead text-light">This is a start.</p>
           </div>
         </div>
         <!-- /Jumbotron -->
 
         <!-- Skills -->
-        <div class="card-deck">
-          <div class="card border-0 bg-light">
+        <h2>My Skills</h2>
+        <div class="card-deck m-4" id="skills">
+          <div class="card rounded">
             <img class="card-img-top" src="./images/html5.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">HTML 5</h5>
               <p class="card-text">I have learned the basics of HTML 5</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
             </div>
           </div>
-          <div class="card border-0">
+          <div class="card rounded">
             <img class="card-img-top" src="./images/css3.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">CSS 3</h5>
               <p class="card-text">I have learned the basics of CSS 3</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
             </div>
           </div>
-          <div class="card border-0">
+          <div class="card rounded">
             <img class="card-img-top" src="./images/not_found.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Future Stuff</h5>
-              <p class="card-text">Future skill go here, such as: JavaScript</p>
+              <p class="card-text">Future skill goes here, such as: JavaScript</p>
             </div>
           </div>
-          <div class="card border-0">
+          <div class="card rounded">
             <img class="card-img-top" src="./images/not_found.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Future stuff</h5>
-              <p class="card-text">Future skill go here, such as: C#</p>
+              <p class="card-text">Future skill goes here, such as: C#</p>
             </div>
           </div>
         </div>
         <!-- /Skills -->
-        
+      </main>
       <!-- /Page Content -->
 
       <!-- Footer -->
-      <nav class="navbar navbar-light bg-light">
+      <h2>Contact Me</h2>
+      <nav class="navbar navbar-light bg-light" id="contact">
         <a class="navbar-brand" href="https://github.com/Addaku">Github
-          <img src="./images/github.svg" width="30" height="30" alt="">
+          <img src="./images/github.svg" width="40" height="40" alt="">
         </a>
         <a class="navbar-brand" href="https://www.linkedin.com/in/adrean-kuznetsov-171468173/">
-          <img src="./images/linkedin.png" width="30" height="30" alt="">Linkedin
+          <img src="./images/linkedin.png" width="40" height="40" alt="">Linkedin
         </a>
       </nav>
       <!-- /Footer -->
