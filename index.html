@@ -14,71 +14,84 @@
   <body id="home">
       <!-- Page Content-->
       <main>
-        <!-- Nav -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" >
-          <a class="navbar-brand" href="#"><em><strong>Adrean K.</strong></em></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#skills">Skills</a>
-              <a class="nav-item nav-link" href="#contact">Contact</a>
-            </div>
+          <!-- Nav -->
+          <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href="#"><em><strong>Adrean K.</strong></em></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                      <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="#skills">Skills</a>
+                      <a class="nav-item nav-link" href="#project">Projects</a>
+                      <a class="nav-item nav-link" href="#contact">Contact</a>
+                  </div>
+              </div>
+          </nav>
+          <!-- /Nav -->
+          <!-- Jumbotron -->
+          <div class="shadow jumbotron jumbotron-fluid mt-5">
+              <div class="container">
+                  <h1 class="display-3"><strong>Adrean Kuznetsov</strong></h1>
+                  <p class="lead text-light">This is a start.</p>
+              </div>
           </div>
-        </nav>
-        <!-- /Nav -->
-
-        <!-- Jumbotron -->
-        <div class="jumbotron jumbotron-fluid mt-5">
-          <div class="container">
-            <h1 class="display-3"><strong>Adrean Kuznetsov</strong></h1>
-            <p class="lead text-light">This is a start.</p>
+          <!-- /Jumbotron -->
+          <!-- Skills -->
+          <h2>My Skills</h2>
+          <div class="card-deck m-4" id="skills">
+              <div class="card rounded">
+                  <img class="card-img-top" src="./images/html5.png" alt="Html5">
+                  <div class="card-body">
+                      <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="HTML5" data-content="I can create a basic outline that can be edited with CSS or JavaScript.">HTML5</a>
+                  </div>
+              </div>
+              <div class="card rounded">
+                  <img class="card-img-top" src="./images/css3.png" alt="CSS3">
+                  <div class="card-body">
+                      <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="CSS3" data-content="I can use CSS to augment HTML to something more pleasing to the eye.">CSS3</a>
+                  </div>
+              </div>
+              <div class="card rounded">
+                  <img class="card-img-top" src="./images/js.png" alt="Javascript">
+                  <div class="card-body">
+                      <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="JavaScript" data-content="With JavaScript I can create web pages that are interactable and have functonality.">JavaScript</a>
+                  </div>
+              </div>
+              <div class="card rounded">
+                  <img class="card-img-top" src="./images/cSharp.png" alt="C-Sharp">
+                  <div class="card-body">
+                      <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="C#" data-content="With C# I can make complex programs or build functional website with the help of ASP.NET">C#</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <!-- /Jumbotron -->
-
-        <!-- Skills -->
-        <h2>My Skills</h2>
-        <div class="card-deck m-4" id="skills">
-          <div class="card rounded">
-            <img class="card-img-top" src="./images/html5.png" alt="Card image cap">
-            <div class="card-body">
-              <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="HTML5" data-content="I can create a basic outline that can be edited with CSS or JavaScript.">HTML5</a>
-            </div>
+          <!-- /Skills -->
+          <!-- Projects -->
+          <div id="project">
+              <h2 class="text-center">Projects</h2>
+              <div class="card shadow p-3 mb-5 bg-white rounded">
+                  <h4 class="text-center">Live Project</h4>
+                  <p class="text-center m-4">A 2 week sprint on a clocking in program.
+                  The image shown below is code I wrote taken from the project. 
+                  What it does is it allows admin users to approve requested time off
+                  for workers by setting their userId to an approverId in the Db </p>
+                  <img src="images/Code_5.png" style="width: 60%; height:20%; margin:auto;" />
+                  <a href="https://github.com/Addaku/Code-RetroSpective/blob/master/README.md" class="text-center">Click here to see the rest of this project on my GitHub page.</a>
+              </div>
           </div>
-          <div class="card rounded">
-            <img class="card-img-top" src="./images/css3.png" alt="Card image cap">
-            <div class="card-body">
-                <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="CSS3" data-content="I can use CSS to augment HTML to something more pleasing to the eye.">CSS3</a>
-            </div>
-          </div>
-          <div class="card rounded">
-            <img class="card-img-top" src="./images/js.png" alt="Card image cap">
-            <div class="card-body">
-                <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="JavaScript" data-content="With JavaScript I can create web pages that are interactable and have functonality.">JavaScript</a>
-            </div>
-          </div>
-          <div class="card rounded">
-            <img class="card-img-top" src="./images/cSharp.png" alt="Card image cap">
-            <div class="card-body">
-                <a tabindex="0" class="btn btn-lg btn-dark popover-dismiss" role="button" data-toggle="popover" data-trigger="focus" title="C#" data-content="With C# I can make complex programs or build functional website with the help of ASP.NET">C#</a> 
-            </div>
-          </div>
-        </div>
-        <!-- /Skills -->
+          <!-- /Projects -->
       </main>
       <!-- /Page Content -->
 
       <!-- Footer -->
-      <h2>Contact Me</h2>
+      <h2 class="text-center">Contact Me</h2>
       <nav class="navbar navbar-light bg-light" id="contact">
         <a class="navbar-brand" href="https://github.com/Addaku" data-toggle="tooltip" data-placement="top" title="Github">
-          <img src="./images/github.svg" width="40" height="40" alt="">
+          <img src="./images/github.svg" width="40" height="40" alt="GitHub">
         </a>
         <a class="navbar-brand" href="https://www.linkedin.com/in/adrean-kuznetsov-171468173/" data-toggle="tooltip" data-placement="top" title="Linkedin">
-          <img src="./images/linkedin.png" width="40" height="40" alt="">
+          <img src="./images/linkedin.png" width="40" height="40" alt="LinkedIn">
         </a>
       </nav>
       <!-- /Footer -->
